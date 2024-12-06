@@ -1,0 +1,28 @@
+{
+  "name": "golap-server",
+  "version": "1.0.0",
+  "description": "Golap server for video streaming",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "hafiz2107",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.705.0",
+    "@aws-sdk/lib-storage": "^3.705.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "fix-webm-duration": "^1.0.6",
+    "hound": "^1.0.5",
+    "nodemon": "^3.1.7",
+    "openai": "^4.76.0",
+    "socket.io": "^4.8.1",
+    "zod": "^3.23.8"
+  }
+}
